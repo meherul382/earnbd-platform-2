@@ -1,21 +1,23 @@
-# BanglaHub — Adsterra-ready free website
+# BanglaHub SEO Pro
 
-## Included
-- Responsive Bangla content homepage
-- 6 starter articles
-- Search/filter
-- Privacy, Terms, Contact
-- 3 Adsterra code placements using the script supplied by the site owner
+Static, GitHub/Vercel-ready Bangla content site.
+
+## Improvements
+- Semantic article pages with clean individual URLs
+- Canonical URLs
+- Meta descriptions
+- Open Graph metadata
+- Robots directives
+- Updated sitemap with individual article URLs
+- Responsive layout
+- Favicon
+- Adsterra script retained in ad placements
 
 ## Deploy
-Upload all files to GitHub and import the repository into Vercel. No build command is required because this is a static HTML/CSS/JS site.
+Upload the files to the repository root. Vercel will redeploy automatically.
 
-## Important monetization rules
-- Use only real visitors and useful content.
-- Never incentivize, force, or mislead users into ad clicks.
-- Do not use bots, auto-refresh traffic, click exchanges, or other artificial traffic.
-- Review the current Adsterra publisher terms/policies before publishing.
-- Replace the placeholder contact email and expand original content before launch.
+## Google
+After deployment, open Search Console and resubmit `sitemap.xml`. Request indexing for the homepage and important article URLs when appropriate.
 
-## Ad code
-The provided Adsterra script is included as supplied. If Adsterra later gives a different ad code, replace the script tags with the new code.
+## Important
+Use original, genuinely useful content and real traffic. Do not incentivize or force ad clicks, use bots, auto-refresh traffic, or misleading ad placements.
