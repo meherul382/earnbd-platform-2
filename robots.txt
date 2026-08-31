@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://earnbd-platform-2.vercel.app/sitemap.xml
