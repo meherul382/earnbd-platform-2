@@ -6,7 +6,32 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://earnbd-platform-2.vercel.app/article.html</loc>
+    <loc>https://earnbd-platform-2.vercel.app/article.html?post=data</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://earnbd-platform-2.vercel.app/article.html?post=safety</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://earnbd-platform-2.vercel.app/article.html?post=phone</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://earnbd-platform-2.vercel.app/article.html?post=tools</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://earnbd-platform-2.vercel.app/article.html?post=social</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://earnbd-platform-2.vercel.app/article.html?post=life</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
