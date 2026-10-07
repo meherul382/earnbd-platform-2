@@ -67,18 +67,38 @@ footer{background:#222;color:#ddd;padding:28px 0;margin-top:30px;border-top:4px 
 .card,.grid,.hero,.cats,.actions,.section,.section-head,.mini{font-family:Arial,sans-serif}
 @media(max-width:850px){
  .wrap,.site-wrap{max-width:calc(100% - 18px)}
- .brand{font-size:19px;padding:0 10px}
- .nav nav{display:none}
+ .nav{min-width:0;overflow:visible}
+ .brand{font-size:18px;padding:0 8px;flex:0 0 auto}
+ .brand span{width:28px;height:28px}
+ .nav nav{display:flex;flex:1 1 auto;min-width:0;overflow-x:auto;overflow-y:hidden;flex-wrap:nowrap;scrollbar-width:none}
+ .nav nav::-webkit-scrollbar{display:none}
+ .nav nav a{flex:0 0 auto;font-size:13px;padding:0 11px;white-space:nowrap}
+ .search{flex:0 0 40px;width:40px}
  .content-layout,.article-layout{grid-template-columns:1fr}
  .sidebar{order:2}
  .main-column,.article-body{padding:15px}
  .article-body h1{font-size:30px}
  .post-card h2{font-size:25px}
- .ad-slot{max-width:100%;height:250px}
+ .ad-slot{width:100%;max-width:336px;height:250px}
  .foot{grid-template-columns:1fr}
+ .post-card .post-image,.article-feature{max-height:none;aspect-ratio:16/9;object-fit:cover}
 }
 @media(max-width:520px){
- .post-card .post-image{max-height:260px}
- .article-body p,.article-body li{font-size:16px}
+ body{font-size:16px}
+ .wrap,.site-wrap{max-width:calc(100% - 12px)}
+ .top{border-bottom-width:3px}
+ .nav{min-height:50px}
+ .brand{font-size:16px;gap:5px;padding:0 5px}
+ .nav nav a{font-size:12px;padding:0 9px}
+ .content-layout,.article-layout{gap:12px;margin-top:8px}
+ .main-column,.article-body{padding:13px}
+ .post-card h2{font-size:23px}
+ .post-card p{font-size:15px}
+ .article-body p,.article-body li{font-size:16px;line-height:1.65}
  .article-body h1{font-size:27px}
+ .article-body h2{font-size:22px}
+ .ad-slot{height:250px;margin:15px auto 10px}
+ .widget{padding:11px}
+ .popular-item{grid-template-columns:86px 1fr}
+ .popular-item img{width:86px;height:60px}
 }
